@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringBootSecurityApplication extends WebSecurityConfigurerAdapter{
 
-	@RequestMapping("/users") 
+	@RequestMapping("/user") 
 	public Principal user(Principal principal){
 		return principal;
 	}
